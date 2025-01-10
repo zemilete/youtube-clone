@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parag {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: lighter;
+      }
+      button {
+        background-color: blue;
+        color: white;
+        width: 30px;
+        border-radius: 10px;
+        border: none;
+        padding: 2px;
+      }
+      .innerflex {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class=""
+      style="
+        display: flex;
+        flex-direction: column;
+        border: solid 1px;
+        border-radius: 4px;
+        width: 400px;
+        height: 120px;
+        padding: 5px;
+      "
+    >
+      <div
+        class="innerflex"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="parag">Home</div>
+        <div><button>14</button></div>
+      </div>
+      <div
+        class="innerflex"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="parag">Notifications</div>
+        <div><button>3</button></div>
+      </div>
+      <div
+        class="innerflex"
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="parag">Messages</div>
+        <div><button>5</button></div>
+      </div>
+    </div>
+  </body>
+</html>

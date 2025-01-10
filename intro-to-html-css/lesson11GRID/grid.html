@@ -1,0 +1,183 @@
+<style>
+  .firstgrid {
+    display: grid;
+    grid-template-columns: 200px 75px;
+  }
+  .secondgrid {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-top: 20px;
+  }
+  .div_1 {
+    background-color: lightblue;
+  }
+  .div_2 {
+    background-color: lightpink;
+  }
+
+  .col1 {
+    background-color: lightblue;
+  }
+  .col2 {
+    background-color: lightpink;
+  }
+  .col3 {
+    background-color: lightblue;
+  }
+  .thirdgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .ao,
+  .bo,
+  .co,
+  .do,
+  .eo,
+  .fo,
+  .go,
+  .ho {
+    background-color: lightpink;
+  }
+
+  .cat1 {
+    margin-top: 15px;
+    width: 190px;
+    border: 1px solid;
+    height: 290px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  .image {
+    width: 100%;
+    height: 100px;
+  }
+  .proandpara {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 10px;
+  }
+  .imgg {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .para {
+    font-family: Arial;
+    font-weight: lighter;
+  }
+  .btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 120px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .the_whole_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 500px;
+    column-gap: 10px;
+  }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--<div class="firstgrid">
+      <div class="div_1">200px</div>
+      <div class="div_2">75px</div>
+    </div>
+    <div class="secondgrid">
+      <div class="col1">col1</div>
+      <div class="col2">col2</div>
+      <div class="col3">col3</div>
+    </div>
+
+    <div class="thirdgrid">
+      <div class="ao">col1</div>
+      <div class="bo">col2</div>
+
+      <div class="co">col3</div>
+
+      <div class="do">col4</div>
+      <div class="eo">col5</div>
+
+      <div class="fo">col6</div>
+      <div class="go">col7</div>
+      <div class="ho">col8</div>
+    </div>-->
+
+    <div class="the_whole_grid">
+      <div class="cat1">
+        <div class="name_front">
+          <div class="front_image">
+            <img class="image" src="thumbnail-1.webp" />
+          </div>
+          <div class="name_of_cat">
+            <p>Oliver</p>
+          </div>
+        </div>
+        <div class="proandpara">
+          <div class="pro">
+            <img class="imgg" src="thumbnail-1.webp" />
+          </div>
+          <div class="para"><p>2 mutual friends</p></div>
+        </div>
+
+        <div class="btnn">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+      <div class="cat1">
+        <div class="name_front">
+          <div class="front_image">
+            <img class="image" src="thumbnail-1.webp" />
+          </div>
+          <div class="name_of_cat">
+            <p>Oliver</p>
+          </div>
+        </div>
+        <div class="proandpara">
+          <div class="pro">
+            <img class="imgg" src="thumbnail-1.webp" />
+          </div>
+          <div class="para"><p>2 mutual friends</p></div>
+        </div>
+
+        <div class="btnn">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+      <div class="cat1">
+        <div class="name_front">
+          <div class="front_image">
+            <img class="image" src="thumbnail-1.webp" />
+          </div>
+          <div class="name_of_cat">
+            <p>Oliver</p>
+          </div>
+        </div>
+        <div class="proandpara">
+          <div class="pro">
+            <img class="imgg" src="thumbnail-1.webp" />
+          </div>
+          <div class="para"><p>2 mutual friends</p></div>
+        </div>
+
+        <div class="btnn">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

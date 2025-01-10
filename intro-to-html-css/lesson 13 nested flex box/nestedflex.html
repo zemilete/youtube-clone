@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flexcontainer {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+      .div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100px;
+
+        background-color: lightpink;
+      }
+      .div2 {
+        background-color: black;
+        color: white;
+        font-size: 10px;
+
+        width: 30px;
+      }
+      .div3 {
+        width: 300px;
+
+        background-color: lightblue;
+      }
+
+      .div4 {
+        color: white;
+
+        background-color: black;
+      }
+
+      .nested {
+        display: flex;
+
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexcontainer">
+      <div class="div1">
+        <div class="div2">item 1</div>
+      </div>
+
+      <div class="div3">
+        <div>row1</div>
+        <div class="nested">
+          <div class="div4">row2</div>
+          <div class="div4">row3</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
